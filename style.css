@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url(https://media.istockphoto.com/id/532119994/photo/hands-of-young-people-on-stack-at-beach.jpg?s=612x612&w=0&k=20&c=6CfSRMB6p5vgYpuvXNz_9BAB0nuT8Zp8zIawzXWFoAw=)
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+  /* this is to add the blur effect */
+}
+
+.loading-text {
+  font-size: 50px;
+  color: white;
+}
